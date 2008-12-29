@@ -1,0 +1,4 @@
+CPAN_AUTHOR=sisyphus
+inherit perl
+
+PATCH_URI="0.45-non-interactive.patch"

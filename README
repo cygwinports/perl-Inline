@@ -7,27 +7,27 @@ from Perl.
 
 Runtime requirements:
   gcc-core-3.4.4-3
-  perl-5.10.0-3
+  perl-5.10.0-5
   perl-Parse-RecDescent-1.95.1-2
 
 Canonical homepage:
-  http://search.cpan.org/~ingy/Inline/
+  http://search.cpan.org/dist/Inline/
 
 Canonical download:
-  http://www.cpan.org/authors/id/I/IN/INGY/
+  http://www.cpan.org/authors/id/S/SI/SISYPHUS/
 
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Inline-0.44-X-src.tar.bz2
+  unpack perl-Inline-0.45-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Inline-0.44-X.cygport all
+  cygport ./perl-Inline-0.45-X.cygport all
 
 This will create:
-  /usr/src/perl-Inline-0.44-X-src.tar.bz2
-  /usr/src/perl-Inline-0.44-X.tar.bz2
+  /usr/src/perl-Inline-0.45-X-src.tar.bz2
+  /usr/src/perl-Inline-0.45-X.tar.bz2
 
 -------------------------------------------
 
@@ -149,9 +149,9 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/auto/Inline/with_configs.al
   /usr/lib/perl5/vendor_perl/5.10/auto/Inline/write_inl_file.al
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Inline/.packlist
-  /usr/share/doc/perl-Inline-0.44/Changes
-  /usr/share/doc/perl-Inline-0.44/README
-  /usr/share/doc/perl-Inline-0.44/TODO
+  /usr/share/doc/perl-Inline-0.45/Changes
+  /usr/share/doc/perl-Inline-0.45/README
+  /usr/share/doc/perl-Inline-0.45/TODO
   /usr/share/man/man3/Inline-API.3pm.gz
   /usr/share/man/man3/Inline-FAQ.3pm.gz
   /usr/share/man/man3/Inline-Support.3pm.gz
@@ -160,6 +160,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.45-1 -----
+Version bump.
 
 ----- version 0.44-3 -----
 Rebuilt for perl-5.10.

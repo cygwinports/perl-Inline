@@ -1,0 +1,16 @@
+--- origsrc/Inline-0.45/C/Makefile.PL	2008-11-10 04:35:43.000000000 -0600
++++ src/Inline-0.45/C/Makefile.PL	2008-12-28 19:35:47.221875000 -0600
+@@ -58,12 +58,8 @@
+ # '
+ }
+ 
+-my $answer = '';
+ my $default = $found ? "y" : "n";
+-while (1) {
+-    $answer = prompt ('Do you want to install Inline::C?', $default); 
+-    last if $answer =~ /^(y|yes|n|no)$/i;
+-}
++my $answer = $default;
+ 
+ if ($answer =~ /^(y|yes)$/i) {
+     WriteMakefile(
