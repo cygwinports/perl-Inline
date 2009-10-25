@@ -1,5 +1,5 @@
 category: Perl Devel
-requires: gcc-core perl perl-Parse-RecDescent
+requires: gcc4-core perl perl-Parse-RecDescent
 sdesc: "Perl module for writing routines in other programming languages"
 ldesc: "The Inline module allows you to put source code from other 
 programming languages directly 'inline' in a Perl script or module. The 
